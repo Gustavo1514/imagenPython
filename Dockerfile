@@ -16,7 +16,7 @@ COPY index.html .
 COPY app.log /datos
 
 ##ADD##
-ADD docs docs
+#ADD docs /docs
 ADD f* /datos/
 ADD f.tar .
 
